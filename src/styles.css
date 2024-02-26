@@ -1,0 +1,43 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css" ;
+body{
+    font-family: "Fredoka", sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  /* GLOBAL */
+  .row{
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+  .btn-more{
+    background-color: #F8AF24;
+    color: #ffffff;
+    border-radius: 30px;
+    border: 1px solid #F8AF24;
+    transition: all 0.4s ease-in-out;
+  }
+  .btn-more:hover{
+    background-color: transparent;
+    border: 1px solid #F8AF24;
+    color: #000;
+  }
+
+
+
+  .title{
+    position: relative;
+  }
+  .title p{
+    margin-left: 15px;
+  }
+  .title p::before{
+    content: "";
+    position: absolute;
+    left: -10px;
+    bottom: 50px;
+    height: 70px;
+    width: 20px;
+    border-radius: 10px;
+    background-color: #F8AF24;
+  }
